@@ -3,6 +3,11 @@ name = "league-toolkit"
 version = "0.1.0"
 edition = "2018"
 authors = ["crauzer"]
+license-file = "LICENSE"
+description = "Library for parsing and editing files from League of Legends"
+homepage = "https://github.com/Crauzer/league-toolkit"
+repository = "https://github.com/Crauzer/league-toolkit"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
