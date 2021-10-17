@@ -30,9 +30,12 @@ impl From<io::Error> for WadError {
     }
 }
 
+#[derive(Getters)]
 pub struct Wad {
+    #[getset(get = "pub")]
     signature: Vec<u8>,
 
+    #[getset(get = "pub")]
     entries: HashMap<u64, Entry>,
 }
 
